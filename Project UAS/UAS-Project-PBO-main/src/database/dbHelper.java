@@ -8,7 +8,7 @@ public class dbHelper {
     public Connection getConnection(){
         try{
             Class.forName("org.sqlite.JDBC");
-            con = DriverManager.getConnection("jdbc:sqlite:src\\database\\Koperasi.db");
+            con = DriverManager.getConnection("jdbc:sqlite:C:\\Users\\Almas\\SqliteDb\\dbkoperasi.sqlite");
             System.out.println("Success!");
             
             return con;
